@@ -11,12 +11,11 @@ namespace CompararString.Input
 {
     public class EntradaPalavra
     {
-        public static void Main()
+        public string LerPalavra2()
         {
-            
-
-            Console.Write("Esreva a palavra 1: ");
-            Console.Write("Ecreva a palavra 2: ");
+            Console.Write("Encrava a palavra 2: ");
+            Palavra pa2 = new Palavra();
+            pa2.Palavra1 = Console.ReadLine();
         }
     }
 }
